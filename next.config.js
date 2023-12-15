@@ -20,7 +20,8 @@ module.exports = {
         source: '/password',
         destination: '/',
         permanent: true
-      }
+      },
+      { source: '/', destination: '/search', permanent: true }
     ];
   }
 };
